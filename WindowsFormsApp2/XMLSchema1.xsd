@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema1"
+    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<!-- Định nghĩa cho kiểu "thoitiethangngay" -->
+	<xs:element name="thoitiethangngay">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="thoigian" maxOccurs="24">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="khuvuc" maxOccurs="3">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ma">
+											<xs:simpleType>
+												<xs:restriction base="xs:ID">
+													<xs:maxLength value="6"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="kieuthoitiet">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="Nắng nhẹ"/>
+													<xs:enumeration value="Nhiều mây"/>
+													<xs:enumeration value="Mưa"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="nhietdo">
+											<xs:simpleType>
+												<xs:restriction base="xs:int">
+													<xs:minInclusive value="10"/>
+													<xs:maxInclusive value="50"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="doam" type="xs:int"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="gio" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

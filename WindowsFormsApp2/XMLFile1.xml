@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="DanhSach.xslt"?>
+<thoitiethangngay xmlns="http://tempuri.org/XMLSchema1.xsd">
+	<thoigian gio="07:00:00">
+		<khuvuc>
+			<ma>k12344</ma>
+			<kieuthoitiet>Nắng nhẹ</kieuthoitiet>
+			<nhietdo>28</nhietdo>
+			<doam>60</doam>
+		</khuvuc>
+		<khuvuc>
+			<ma>k2</ma>
+			<kieuthoitiet>nhieusgadmay</kieuthoitiet>
+			<nhietdo>26232</nhietdo>
+			<doam>70</doam>
+		</khuvuc>
+	</thoigian>
+</thoitiethangngay>
+

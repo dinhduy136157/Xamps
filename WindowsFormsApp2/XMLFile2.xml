@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="XSLTFile1.xslt"?>
+
+<thoitiettrongtuan>
+	<thoigian>
+		<gio>07:00:00</gio>
+		<khuvuc>
+			<khuvuc_ma>353412</khuvuc_ma>
+			<kieuthoitiet>Nắng nhẹ</kieuthoitiet>
+			<nhietdo>28</nhietdo>
+			<doam>60</doam>
+		</khuvuc>
+		<khuvuc>
+			<khuvuc_ma>353981</khuvuc_ma>
+			<kieuthoitiet>Nhiều mây</kieuthoitiet>
+			<nhietdo>26</nhietdo>
+			<doam>70</doam>
+		</khuvuc>
+	</thoigian>
+	<thoigian>
+		<gio>10:00:00</gio>
+		<khuvuc>
+			<khuvuc_ma>353501</khuvuc_ma>
+			<kieuthoitiet>Mưa</kieuthoitiet>
+			<nhietdo>24</nhietdo>
+			<doam>89</doam>
+		</khuvuc>
+		<khuvuc>
+			<khuvuc_ma>353511</khuvuc_ma>
+			<kieuthoitiet>Nắng nhẹ</kieuthoitiet>
+			<nhietdo>29</nhietdo>
+			<doam>72</doam>
+		</khuvuc>
+	</thoigian>
+</thoitiettrongtuan>
